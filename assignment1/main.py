@@ -28,8 +28,7 @@ i = 0; j = 0; r = 0
 while j < 10:
 
     while i < 10:
-        if(T[j][i]):
-            my_canvas.create_rectangle(x, y, x1, y1,  fill='white')
+        my_canvas.create_rectangle(x, y, x1, y1,  fill='white')
         #print(x, y, x1, y1)
         x = x + gridSize
         x1 = x1 + gridSize
